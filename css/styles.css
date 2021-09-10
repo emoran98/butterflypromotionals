@@ -76,8 +76,15 @@
 }
 
 @font-face {
-  font-family: "palace";
-  src: url("fonts/palace.woff") format('woff');
+  font-family: 'Palace';
+  src: url('fonts/Palace.eot');
+  src: url('fonts/Palace.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Palace.woff2') format('woff2'),
+      url('fonts/Palace.woff') format('woff'),
+      url('fonts/Palace.svg#Palace') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
